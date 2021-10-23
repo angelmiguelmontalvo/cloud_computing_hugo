@@ -19,5 +19,5 @@ phases:
       - hugo 
   post_build:
     commands:
-      - aws s3 sync --delete public s3://hugoscreencastdev
+      - aws s3 cp --recursive ./public/ s3://hugoscreencastdev --cache-control 'public, max-age=300, s-maxage=31536000'
       - echo Build completed on `date`
