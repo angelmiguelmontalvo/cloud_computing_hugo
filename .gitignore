@@ -8,9 +8,23 @@ public/
 
 # Test binary, built with `go test -c`
 *.test
+<<<<<<< HEAD
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+<<<<<<< HEAD
+=======
+=======
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+
+>>>>>>> adb3f66 (Added Hugo first publish.)
+>>>>>>> d6f2c3a (Initial commit)
