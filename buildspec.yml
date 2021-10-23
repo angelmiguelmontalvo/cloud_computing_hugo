@@ -17,6 +17,7 @@ phases:
     commands:
       - rm -rf public
       - hugo 
+      - cd public && ls && cd ..
   post_build:
     commands:
       - aws s3 cp --recursive public s3://hugoscreencastdev
