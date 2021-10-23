@@ -1,0 +1,8 @@
+baseURL = "http://hugoscreencastdev.s3-website.us-east-2.amazonaws.com/"
+languageCode = 'en-us'
+title = 'Cloud AWS CI-CD'
+theme = ["ananke"]
+[[deployment.targets]]
+# An arbitrary name for this target
+name = 'awsbucket'
+URL = "s3://hugoscreencastdev/?region=us-east-2" # your bucket name here
