@@ -16,6 +16,8 @@ phases:
   build:
     commands:
       - rm -rf public
+      - git submodule init
+      - git submodule update
       - hugo 
       - cd public && ls && cd ..
   post_build:
